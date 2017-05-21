@@ -1,3 +1,11 @@
+Create new branch and check it out.
+
+    git checkout -b branch_name
+
+Merge given branch and delete it. The simplest way in one-liner as git doesn't provide single command for this.
+
+    git merge branch_name && git branch -d branch_name
+
 Delete the most recent commit, keeping the work you've done.
 
     git reset --soft HEAD~1
