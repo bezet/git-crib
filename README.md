@@ -10,6 +10,10 @@ Delete both local and remote branch.
 
     git push origin --delete <branch_name>
     git branch -d <branch_name>
+    
+Move branch to a new repo (usually as a master branch).
+
+    git push url://to/new/repository.git branch-to-move:new-branch-name
 
 Delete the most recent commit, keeping the work you've done.
 
